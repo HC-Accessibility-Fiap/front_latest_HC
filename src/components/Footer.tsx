@@ -8,6 +8,7 @@ import clock from "../assets/clock-branco.svg"
 import linkedin from "../assets/icon-in-branco-principal.svg"
 import insta from "../assets/icon-insta-branco-principal.svg"
 import face from "../assets/icon-face-branca-principal.svg"
+import { Link } from "react-router"
 
 function Footer() {
   return (
@@ -24,8 +25,8 @@ function Footer() {
         <div className="footer_section flex-1 min-w-[250px] mb-5 md:mb-0">
           <h3 className="text-white text-xl md:text-2xl font-sans mb-4 pb-2 border-b border-white/[.3]">Navegação</h3>
           <div className="lista_links flex flex-col gap-3 font-sans">
-            <a href="index.html" className="text-white no-underline transition-opacity duration-300 hover:opacity-80 hover:underline">Início</a>
-            <a href="integrantes.html" className="text-white no-underline transition-opacity duration-300 hover:opacity-80 hover:underline">Integrantes</a>
+            <Link to="/" className="text-white no-underline transition-opacity duration-300 hover:opacity-80 hover:underline">Início</Link>
+            <Link to="/Integrantes" className="text-white no-underline transition-opacity duration-300 hover:opacity-80 hover:underline">Integrantes</Link>
             <a href="#hospitais_proximos" className="text-white no-underline transition-opacity duration-300 hover:opacity-80 hover:underline">Localização</a>
             <a href="#titulo_eva" className="text-white no-underline transition-opacity duration-300 hover:opacity-80 hover:underline">Eva</a>
             <a href="faq.html" className="text-white no-underline transition-opacity duration-300 hover:opacity-80 hover:underline">FAQ</a>

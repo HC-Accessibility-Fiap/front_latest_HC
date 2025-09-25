@@ -3,6 +3,7 @@
 
 import logo_hc_branca_principal from "../assets/logo-hc-branca-principal.svg" 
 import logo_fiap_branca_principal from "../assets/logo-fiap-branca-principal.svg"
+import { Link } from "react-router";
 
 function Header() {
     return (
@@ -11,15 +12,16 @@ function Header() {
 
                 {/* Logo Section */}
                 <div className="flex gap-2 sm:gap-5 items-center">
-                    <a href="#inicio"><img src={logo_hc_branca_principal} alt="Logo HC" className="h-6 sm:h-8" /></a>
+                    <Link to="/"><img src={logo_hc_branca_principal} alt="Logo HC" className="h-6 sm:h-8" /></Link>
                     <p className="text-xl sm:text-2xl font-bold">+</p>
-                    <a href="index.html"><img src={logo_fiap_branca_principal} alt="Logo FIAP" className="h-6 sm:h-8" /></a>
+                    <Link to="/"><img src={logo_fiap_branca_principal} alt="Logo FIAP" className="h-6 sm:h-8" /></Link>
                 </div>
 
                 {/* Desktop Menu - Hidden on mobile */}
                 <ul className="hidden md:flex md:items-center">
                     <li><a className="text-white no-underline px-2 py-2 md:px-4 md:py-2 block transition-opacity duration-300 ease-in-out font-sans hover:opacity-75" href="faq.html">FAQ</a></li>
-                    <li><a className="text-white no-underline px-2 py-2 md:px-4 md:py-2 block transition-opacity duration-300 ease-in-out font-sans hover:opacity-75" href="integrantes.html">Integrantes</a></li>
+                    <li>
+                        <Link className="text-white no-underline px-2 py-2 md:px-4 md:py-2 block transition-opacity duration-300 ease-in-out font-sans hover:opacity-75" to="/Integrantes">Integrantes</Link></li>
                     <li><a className="text-white no-underline px-2 py-2 md:px-4 md:py-2 block transition-opacity duration-300 ease-in-out font-sans hover:opacity-75" href="https://www.hc.fm.usp.br/hc/portal/" target="_blank">HC</a></li>
                     <li><a className="text-white no-underline px-2 py-2 md:px-4 md:py-2 block transition-opacity duration-300 ease-in-out font-sans hover:opacity-75" target="_blank" href="https://redelucymontoro.org.br/site/imrea/">Imrea</a></li>
                     <li><a className="text-white no-underline px-2 py-2 md:px-4 md:py-2 block transition-opacity duration-300 ease-in-out font-sans hover:opacity-75" href="#footer_inicial">Contato</a></li>
