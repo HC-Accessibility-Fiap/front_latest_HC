@@ -4,6 +4,7 @@ import './index.css'
 import App from './App.tsx'
 import { createBrowserRouter, RouterProvider } from 'react-router'
 import IntegrantePage from './pages/IntegrantesPage'
+import FaqPage from './pages/FaqPage'
 
 const router = createBrowserRouter ([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter ([
   {
     path: "/Integrantes",
     element: < IntegrantePage />
+  },
+  {
+    path: "/Faq",
+    element: <FaqPage/>
   }
 ]);
 

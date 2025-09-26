@@ -29,7 +29,7 @@ function Footer() {
             <Link to="/Integrantes" className="text-white no-underline transition-opacity duration-300 hover:opacity-80 hover:underline">Integrantes</Link>
             <a href="#hospitais_proximos" className="text-white no-underline transition-opacity duration-300 hover:opacity-80 hover:underline">Localização</a>
             <a href="#titulo_eva" className="text-white no-underline transition-opacity duration-300 hover:opacity-80 hover:underline">Eva</a>
-            <a href="faq.html" className="text-white no-underline transition-opacity duration-300 hover:opacity-80 hover:underline">FAQ</a>
+            <Link to="/Faq" className="text-white no-underline transition-opacity duration-300 hover:opacity-80 hover:underline">FAQ</Link>
           </div>
         </div>
 

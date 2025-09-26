@@ -19,7 +19,7 @@ function Header() {
 
                 {/* Desktop Menu - Hidden on mobile */}
                 <ul className="hidden md:flex md:items-center">
-                    <li><a className="text-white no-underline px-2 py-2 md:px-4 md:py-2 block transition-opacity duration-300 ease-in-out font-sans hover:opacity-75" href="faq.html">FAQ</a></li>
+                    <li><Link className="text-white no-underline px-2 py-2 md:px-4 md:py-2 block transition-opacity duration-300 ease-in-out font-sans hover:opacity-75" to="/Faq">FAQ</Link></li>
                     <li>
                         <Link className="text-white no-underline px-2 py-2 md:px-4 md:py-2 block transition-opacity duration-300 ease-in-out font-sans hover:opacity-75" to="/Integrantes">Integrantes</Link></li>
                     <li><a className="text-white no-underline px-2 py-2 md:px-4 md:py-2 block transition-opacity duration-300 ease-in-out font-sans hover:opacity-75" href="https://www.hc.fm.usp.br/hc/portal/" target="_blank">HC</a></li>

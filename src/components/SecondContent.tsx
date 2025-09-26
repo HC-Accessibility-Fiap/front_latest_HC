@@ -1,4 +1,4 @@
-import React from "react";
+
 import hospital1 from "../assets/hcfmusp1.png"
 import cancerInstituto from "../assets/institutoCancer.jpeg"
 import intitutoCoracao from "../assets/intitutoCoracao.jpeg"
