@@ -1,4 +1,4 @@
-import Cadastro from "../components/Cadastro"
+import Cadastro from "../components/Cadastro";
 
 function CadastroPage() {
     return (
