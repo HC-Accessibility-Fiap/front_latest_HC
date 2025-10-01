@@ -92,5 +92,6 @@ Você pode acessar o código-fonte completo deste projeto através do link abaix
 
 👉 [https://github.com/HC-Accessibility-Fiap/front_latest_HC]
 
+link do video no youtube : https://youtu.be/SNICV6BsWoY
 
 ---
