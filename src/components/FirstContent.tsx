@@ -2,6 +2,7 @@
 
 
 
+import { Link } from "react-router";
 import aviao from "../assets/aviao.png"
 
 function FirstContent() {
@@ -17,8 +18,8 @@ function FirstContent() {
                     Na Central de Soluções HC, somos especialistas em conectar ideias a soluções práticas. Seja através de tecnologia de ponta, consultoria especializada ou gestão de projetos integrada, nossa missão é simplificar o complexo e entregar excelência em cada detalhe.
                 </p>
                 <div className="flex flex-col sm:flex-row-reverse justify-center md:justify-end items-center gap-5">
-                    <a href="login.html" className="bg-[#0086C5] font-poppins text-white border-0 rounded-md w-full sm:w-[100px] h-[46px] text-base font-light p-[10px] text-center no-underline flex items-center justify-center">entrar</a>
-                    <a href="https://fiapcom-my.sharepoint.com/:w:/g/personal/rm562707_fiap_com_br/ESXUmvrEO21Goprk7dpXjFABY-Apcdl1xoZ-k7mgPvvtRA?e=XPTxOI" target="_blank" className="bg-white font-poppins text-[#0086C5] border border-[#0086C5] rounded-md w-full sm:w-[120px] h-[46px] text-base font-light p-[10px] text-center no-underline flex items-center justify-center hover:bg-[#0086c5] transition hover:text-white">Criar conta</a>
+                    <Link to="/Login" className="bg-[#0086C5] font-poppins text-white border-0 rounded-md w-full sm:w-[100px] h-[46px] text-base font-light p-[10px] text-center no-underline flex items-center justify-center">entrar</Link>
+                    <Link to="/Cadastro" target="_blank" className="bg-white font-poppins text-[#0086C5] border border-[#0086C5] rounded-md w-full sm:w-[120px] h-[46px] text-base font-light p-[10px] text-center no-underline flex items-center justify-center hover:bg-[#0086c5] transition hover:text-white">Criar conta</Link>
                 </div>
             </div>
 

@@ -3,6 +3,7 @@ import fotoMurilo from "../assets/foto-murilo.png"
 import fotoJoao from "../assets/foto-joao.jpg"
 import iconGit from "../assets/icon-github.svg"
 import iconLinkedin from "../assets/icon-linkedin.svg"
+import fotoRafael from "../assets/fotoRafael.jpeg"
 
 // Define a interface para tipar os dados de cada integrante
 interface IntegranteProps {
@@ -62,9 +63,9 @@ const equipeData = [
     nome: 'JOÃO VICTOR ALCÂNTARA',
     subtitulo: '19 ANOS - 1TDSR - RM562707',
     biografia: `Me chamo João Victor Alcântara, tenho 19 anos e sou natural da Bahia, Brasil. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na FIAP, onde também atuo como estagiário de T.I. com foco em infraestrutura. Tenho interesse em tecnologia, redes e suporte técnico, e estou em constante busca por desenvolvimento profissional e aprendizado prático na área de Tecnologia da Informação. Valorizo a responsabilidade, o trabalho em equipe e a entrega de soluções eficazes, sempre com foco em eficiência e melhoria contínua.
-    <br/><br/>
+    
     Atualmente, foco em me tornar desenvolvedor, sempre buscando aprender novas tecnologias, linguagens de programação e boas práticas de desenvolvimento. Acredito em construir histórias com consistência e autenticidade, unindo técnica e propósito para entregar soluções que realmente façam a diferença.
-    <br/><br/>
+    
     Além das competências técnicas, valorizo muito as habilidades interpessoais, como trabalho em equipe, comunicação eficaz e resolução de problemas. Acredito que a combinação dessas qualidades é essencial para entregar resultados de qualidade e contribuir para o sucesso dos projetos.`,
     foto: fotoJoao,
     linkedin: 'https://www.linkedin.com/in/alc-joao',
@@ -94,6 +95,17 @@ Se você busca inovação, confiabilidade e um parceiro comprometido com o suces
     github: 'https://github.com/MuriloMacedoSilva',
     reverso: true,
   },
+  {
+    nome: 'RAFAEL CARVALHO MEIRELES',
+    subtitulo: '29 ANOS - 1TDSR - RM563413',
+    biografia: `Me chamo Rafael Carvalho Meireles, tenho 29 anos e sou natural de São Bernardo do Campo - SP. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na FIAP, onde tenho me dedicado a desenvolver competências técnicas em programação, banco de dados e soluções tecnológicas. Valorizo a comunicação eficaz, a adaptabilidade, o trabalho em equipe e a inteligência emocional, acreditando que a combinação de habilidades técnicas e interpessoais é essencial para entregar resultados consistentes e de qualidade. 
+Meu objetivo é me tornar um desenvolvedor back-end, aplicando boas práticas de desenvolvimento, explorando novas linguagens de programação e frameworks modernos. Busco constantemente aprimorar meus conhecimentos para atuar de forma prática e estratégica no mercado de tecnologia e acredito que a tecnologia deve ser utilizada para transformar ideias em soluções reais gerando impacto positivo na sociedade, sempre com foco em inovação e eficiência.
+Além da parte técnica, tenho experiência em vendas e inglês fluente, o que me permite contribuir de forma ampla para o sucesso de projetos e equipes.`,
+    foto: fotoRafael,
+    linkedin: 'https://www.linkedin.com/in/rafael-carvalho-meireles-0a3a87130?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+    github: 'https://github.com/rafaelcmeireles',
+    reverso: false,
+  }
 ];
 
 // Componente Principal que renderiza todos os integrantes

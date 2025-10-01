@@ -5,6 +5,8 @@ import App from './App.tsx'
 import { createBrowserRouter, RouterProvider } from 'react-router'
 import IntegrantePage from './pages/IntegrantesPage'
 import FaqPage from './pages/FaqPage'
+import CadastroPage from './pages/CadastroPage.tsx'
+import LoginPage from './pages/LoginPage.tsx'
 
 const router = createBrowserRouter ([
   {
@@ -18,6 +20,14 @@ const router = createBrowserRouter ([
   {
     path: "/Faq",
     element: <FaqPage/>
+  },
+  {
+    path: "/Cadastro",
+    element: <CadastroPage/>
+  },
+  {
+    path: "/Login",
+    element: <LoginPage/>
   }
 ]);
 
